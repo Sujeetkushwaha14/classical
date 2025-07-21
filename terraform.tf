@@ -15,7 +15,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name = "rg-sujeet"
+  name = "rgsujeet"
   location = "westus"
   lifecycle {
     prevent_destroy = true
